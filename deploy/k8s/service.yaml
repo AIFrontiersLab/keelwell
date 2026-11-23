@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: distributed-training-anatomy
+  namespace: distributed-training-anatomy
+spec:
+  selector: {app.kubernetes.io/name: distributed-training-anatomy}
+  ports: [{port: 80, targetPort: 8080}]

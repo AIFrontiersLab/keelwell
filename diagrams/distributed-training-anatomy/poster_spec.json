@@ -1,0 +1,63 @@
+{
+  "boxes": [
+    {
+      "detail": "Collect and preprocess data from multiple sources.",
+      "id": "1",
+      "label": "Data Ingestion"
+    },
+    {
+      "detail": "Divide the model into smaller components for parallel processing.",
+      "id": "2",
+      "label": "Model Partitioning"
+    },
+    {
+      "detail": "Train model components across multiple nodes.",
+      "id": "3",
+      "label": "Distributed Training"
+    },
+    {
+      "detail": "Aggregate and synchronize parameters from all nodes.",
+      "id": "4",
+      "label": "Parameter Synchronization"
+    },
+    {
+      "detail": "Assess model performance and accuracy.",
+      "id": "5",
+      "label": "Model Evaluation"
+    },
+    {
+      "detail": "Deploy the trained model into production environments.",
+      "id": "6",
+      "label": "Deployment"
+    }
+  ],
+  "flows": [
+    {
+      "from": "1",
+      "label": "Preprocessed data",
+      "to": "2"
+    },
+    {
+      "from": "2",
+      "label": "Partitioned model",
+      "to": "3"
+    },
+    {
+      "from": "3",
+      "label": "Trained parameters",
+      "to": "4"
+    },
+    {
+      "from": "4",
+      "label": "Synchronized model",
+      "to": "5"
+    },
+    {
+      "from": "5",
+      "label": "Validated model",
+      "to": "6"
+    }
+  ],
+  "subtitle": "One concept. Three AI perspectives. One tested architecture.",
+  "title": "Distributed Training Anatomy"
+}

@@ -1,0 +1,14 @@
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: distributed-training-anatomy-ingress
+  namespace: distributed-training-anatomy
+spec:
+  podSelector:
+    matchLabels: {app.kubernetes.io/name: distributed-training-anatomy}
+  policyTypes: [Ingress]
+  ingress:
+    - from:
+        - namespaceSelector:
+            matchLabels: {kubernetes.io/metadata.name: gateway}
+      ports: [{port: 8080}]

@@ -1,0 +1,9 @@
+services:
+  distributed-training-anatomy:
+    build: .
+    ports: ["8080:8080"]
+    environment:
+      DISTRIBUTED_TRAINING_ANATOMY_CONFIG: /app/config/development.toml
+      DISTRIBUTED_TRAINING_ANATOMY_HTTP__HOST: 0.0.0.0
+    volumes:
+      - ./var:/app/var

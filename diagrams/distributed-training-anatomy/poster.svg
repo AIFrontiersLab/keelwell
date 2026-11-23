@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1536" viewBox="0 0 1024 1536">
+<rect width="100%" height="100%" fill="#FAF7F0"/>
+<text x="56" y="64" fill="#1A4BFF" font-size="22" font-family="Arial, Helvetica, sans-serif" font-weight="700">AI FRONTIERS FORUM</text>
+<text x="56" y="120" fill="#0B1F3A" font-size="42" font-family="Arial, Helvetica, sans-serif" font-weight="700">Distributed Training Anatomy</text>
+<text x="56" y="168" fill="#5A6B7D" font-size="22" font-family="Arial, Helvetica, sans-serif">One concept. Three AI perspectives. One tested architecture.</text>
+<rect x="48.0" y="280.0" width="293.3" height="220.0" rx="16" fill="#FFFFFF" stroke="#1A4BFF" stroke-width="3"/>
+<text x="68.0" y="320.0" fill="#1A4BFF" font-size="18" font-family="Arial, Helvetica, sans-serif" font-weight="700">Data Ingestion</text>
+<text x="68.0" y="358.0" fill="#0B1F3A" font-size="18" font-family="Arial, Helvetica, sans-serif">Collect and preprocess data from</text>
+<text x="68.0" y="384.0" fill="#0B1F3A" font-size="18" font-family="Arial, Helvetica, sans-serif">multiple sources.</text>
+<rect x="365.3" y="280.0" width="293.3" height="220.0" rx="16" fill="#FFFFFF" stroke="#1A4BFF" stroke-width="3"/>
+<text x="385.3" y="320.0" fill="#1A4BFF" font-size="18" font-family="Arial, Helvetica, sans-serif" font-weight="700">Model Partitioning</text>
+<text x="385.3" y="358.0" fill="#0B1F3A" font-size="18" font-family="Arial, Helvetica, sans-serif">Divide the model into smaller</text>
+<text x="385.3" y="384.0" fill="#0B1F3A" font-size="18" font-family="Arial, Helvetica, sans-serif">components for parallel processing.</text>
+<rect x="682.7" y="280.0" width="293.3" height="220.0" rx="16" fill="#FFFFFF" stroke="#1A4BFF" stroke-width="3"/>
+<text x="702.7" y="320.0" fill="#1A4BFF" font-size="18" font-family="Arial, Helvetica, sans-serif" font-weight="700">Distributed Training</text>
+<text x="702.7" y="358.0" fill="#0B1F3A" font-size="18" font-family="Arial, Helvetica, sans-serif">Train model components across</text>
+<text x="702.7" y="384.0" fill="#0B1F3A" font-size="18" font-family="Arial, Helvetica, sans-serif">multiple nodes.</text>
+<rect x="48.0" y="524.0" width="293.3" height="220.0" rx="16" fill="#FFFFFF" stroke="#1A4BFF" stroke-width="3"/>
+<text x="68.0" y="564.0" fill="#1A4BFF" font-size="18" font-family="Arial, Helvetica, sans-serif" font-weight="700">Parameter Synchronization</text>
+<text x="68.0" y="602.0" fill="#0B1F3A" font-size="18" font-family="Arial, Helvetica, sans-serif">Aggregate and synchronize parameters</text>
+<text x="68.0" y="628.0" fill="#0B1F3A" font-size="18" font-family="Arial, Helvetica, sans-serif">from all nodes.</text>
+<rect x="365.3" y="524.0" width="293.3" height="220.0" rx="16" fill="#FFFFFF" stroke="#1A4BFF" stroke-width="3"/>
+<text x="385.3" y="564.0" fill="#1A4BFF" font-size="18" font-family="Arial, Helvetica, sans-serif" font-weight="700">Model Evaluation</text>
+<text x="385.3" y="602.0" fill="#0B1F3A" font-size="18" font-family="Arial, Helvetica, sans-serif">Assess model performance and</text>
+<text x="385.3" y="628.0" fill="#0B1F3A" font-size="18" font-family="Arial, Helvetica, sans-serif">accuracy.</text>
+<rect x="682.7" y="524.0" width="293.3" height="220.0" rx="16" fill="#FFFFFF" stroke="#1A4BFF" stroke-width="3"/>
+<text x="702.7" y="564.0" fill="#1A4BFF" font-size="18" font-family="Arial, Helvetica, sans-serif" font-weight="700">Deployment</text>
+<text x="702.7" y="602.0" fill="#0B1F3A" font-size="18" font-family="Arial, Helvetica, sans-serif">Deploy the trained model into</text>
+<text x="702.7" y="628.0" fill="#0B1F3A" font-size="18" font-family="Arial, Helvetica, sans-serif">production environments.</text>
+<text x="56" y="1496" fill="#5A6B7D" font-size="16" font-family="Arial, Helvetica, sans-serif">For more AI learning, register free:  https://aifrontiersforum.org/join</text>
+</svg>

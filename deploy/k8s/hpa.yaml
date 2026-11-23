@@ -1,0 +1,12 @@
+apiVersion: autoscaling/v2
+kind: HorizontalPodAutoscaler
+metadata:
+  name: distributed-training-anatomy
+  namespace: distributed-training-anatomy
+spec:
+  scaleTargetRef: {apiVersion: apps/v1, kind: Deployment, name: distributed-training-anatomy}
+  minReplicas: 2
+  maxReplicas: 10
+  metrics:
+    - type: Resource
+      resource: {name: cpu, target: {type: Utilization, averageUtilization: 70}}

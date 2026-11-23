@@ -1,0 +1,29 @@
+flowchart LR
+  1["Data Ingestion"]
+  2["Model Partitioning"]
+  3["Distributed Training"]
+  4["Parameter Synchronization"]
+  5["Model Evaluation"]
+  6["Deployment"]
+  1 -->|Preprocessed data| 2
+  2 -->|Partitioned model| 3
+  3 -->|Trained parameters| 4
+  4 -->|Synchronized model| 5
+  5 -->|Validated model| 6
+
+flowchart TB
+  subgraph happy [Happy path]
+    h_1["Data Ingestion"]
+    h_2["Model Partitioning"]
+    h_3["Distributed Training"]
+    h_4["Parameter Synchronization"]
+    h_5["Model Evaluation"]
+    h_6["Deployment"]
+    h_1 --> h_2
+    h_2 --> h_3
+    h_3 --> h_4
+    h_4 --> h_5
+    h_5 --> h_6
+  end
+  fail["Failure / abstain"]
+  h_6 -.-> fail
